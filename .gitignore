@@ -12,6 +12,7 @@ credentials/
 
 # Session logs (may contain sensitive info)
 agents/*/sessions/*.jsonl
+agents/*/sessions/*.jsonl.lock
 
 # Browser data
 browser/
