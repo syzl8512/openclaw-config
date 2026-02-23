@@ -1,7 +1,7 @@
 {
   "agent:archive-agent:feishu:group:oc_3befe97960589d1ae07857e1317ec1b8": {
-    "sessionId": "dfadbb9a-f5ab-47ae-9bb2-a2ddb070e50b",
-    "updatedAt": 1771815769675,
+    "sessionId": "41ceebff-fe21-460a-a108-03430fbfed64",
+    "updatedAt": 1771842950388,
     "systemSent": true,
     "abortedLastRun": false,
     "displayName": "feishu:g-oc_3befe97960589d1ae07857e1317ec1b8",
@@ -26,10 +26,10 @@
       "to": "chat:oc_3befe97960589d1ae07857e1317ec1b8",
       "accountId": "default"
     },
-    "sessionFile": "/root/.openclaw/agents/archive-agent/sessions/dfadbb9a-f5ab-47ae-9bb2-a2ddb070e50b.jsonl",
+    "sessionFile": "/root/.openclaw/agents/archive-agent/sessions/41ceebff-fe21-460a-a108-03430fbfed64.jsonl",
     "compactionCount": 0,
     "skillsSnapshot": {
-      "prompt": "\n\nThe following skills provide specialized instructions for specific tasks.\nUse the read tool to load a skill's file when the task matches its description.\nWhen a skill file references a relative path, resolve it against the skill directory (parent of SKILL.md / dirname of the path) and use that absolute path in tool commands.\n\n<available_skills>\n  <skill>\n    <name>feishu-doc</name>\n    <description>Feishu document read/write operations. Activate when user mentions Feishu docs, cloud docs, or docx links.\n</description>\n    <location>/usr/lib/node_modules/openclaw/extensions/feishu/skills/feishu-doc/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>feishu-drive</name>\n    <description>Feishu cloud storage file management. Activate when user mentions cloud space, folders, drive.\n</description>\n    <location>/usr/lib/node_modules/openclaw/extensions/feishu/skills/feishu-drive/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>feishu-perm</name>\n    <description>Feishu permission management for documents and files. Activate when user mentions sharing, permissions, collaborators.\n</description>\n    <location>/usr/lib/node_modules/openclaw/extensions/feishu/skills/feishu-perm/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>feishu-wiki</name>\n    <description>Feishu knowledge base navigation. Activate when user mentions knowledge base, wiki, or wiki links.\n</description>\n    <location>/usr/lib/node_modules/openclaw/extensions/feishu/skills/feishu-wiki/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>gog</name>\n    <description>Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/gog/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>healthcheck</name>\n    <description>Host security hardening and risk-tolerance configuration for OpenClaw deployments. Use when a user asks for security audits, firewall/SSH/update hardening, risk posture, exposure review, OpenClaw cron scheduling for periodic checks, or version status checks on a machine running OpenClaw (laptop, workstation, Pi, VPS).</description>\n    <location>/usr/lib/node_modules/openclaw/skills/healthcheck/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>skill-creator</name>\n    <description>Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.</description>\n    <location>/usr/lib/node_modules/openclaw/skills/skill-creator/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>weather</name>\n    <description>Get current weather and forecasts via wttr.in or Open-Meteo. Use when: user asks about weather, temperature, or forecasts for any location. NOT for: historical weather data, severe weather alerts, or detailed meteorological analysis. No API key needed.</description>\n    <location>/usr/lib/node_modules/openclaw/skills/weather/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>document-analysis</name>\n    <description>政企公文/材料全流程智能分析 - 格式结构分析 + 内容量化打标 + 数据抽取 + 素材库</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/document_analysis/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>XLSX</name>\n    <description>Read and generate Excel files with correct types, dates, and cross-platform compatibility.</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/excel-xlsx/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>mineru</name>\n    <description>用 MinerU API 解析 PDF/Word/PPT/图片为 Markdown，支持公式、表格、OCR。适用于论文解析、文档提取。</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/mineru/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>pptx</name>\n    <description>Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates, layouts, speaker notes, or comments. Trigger whenever the user mentions &quot;deck,&quot; &quot;slides,&quot; &quot;presentation,&quot; or references a .pptx filename, regardless of what they plan to do with the content afterward. If a .pptx file needs to be opened, created, or touched, use this skill.</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/pptx-2/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>sheet-cog</name>\n    <description>CellCog is built by its own Coding Agent. That same agent builds your spreadsheets. Full Python access for complex data manipulation, formulas, pivot tables, financial models, budget templates, data trackers, projections, and Excel/XLSX generation — powered by the engineering brain that develops an entire AI platform daily.</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/sheet-cog/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>DOCX</name>\n    <description>Read and generate Word documents with correct structure, styles, and cross-platform compatibility.</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/word-docx/SKILL.md</location>\n  </skill>\n</available_skills>",
+      "prompt": "\n\nThe following skills provide specialized instructions for specific tasks.\nUse the read tool to load a skill's file when the task matches its description.\nWhen a skill file references a relative path, resolve it against the skill directory (parent of SKILL.md / dirname of the path) and use that absolute path in tool commands.\n\n<available_skills>\n  <skill>\n    <name>feishu-doc</name>\n    <description>Feishu document read/write operations. Activate when user mentions Feishu docs, cloud docs, or docx links.\n</description>\n    <location>/usr/lib/node_modules/openclaw/extensions/feishu/skills/feishu-doc/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>feishu-drive</name>\n    <description>Feishu cloud storage file management. Activate when user mentions cloud space, folders, drive.\n</description>\n    <location>/usr/lib/node_modules/openclaw/extensions/feishu/skills/feishu-drive/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>feishu-perm</name>\n    <description>Feishu permission management for documents and files. Activate when user mentions sharing, permissions, collaborators.\n</description>\n    <location>/usr/lib/node_modules/openclaw/extensions/feishu/skills/feishu-perm/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>feishu-wiki</name>\n    <description>Feishu knowledge base navigation. Activate when user mentions knowledge base, wiki, or wiki links.\n</description>\n    <location>/usr/lib/node_modules/openclaw/extensions/feishu/skills/feishu-wiki/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>clawhub</name>\n    <description>Use the ClawHub CLI to search, install, update, and publish agent skills from clawhub.com. Use when you need to fetch new skills on the fly, sync installed skills to latest or a specific version, or publish new/updated skill folders with the npm-installed clawhub CLI.</description>\n    <location>/usr/lib/node_modules/openclaw/skills/clawhub/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>gog</name>\n    <description>Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/gog/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>healthcheck</name>\n    <description>Host security hardening and risk-tolerance configuration for OpenClaw deployments. Use when a user asks for security audits, firewall/SSH/update hardening, risk posture, exposure review, OpenClaw cron scheduling for periodic checks, or version status checks on a machine running OpenClaw (laptop, workstation, Pi, VPS).</description>\n    <location>/usr/lib/node_modules/openclaw/skills/healthcheck/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>skill-creator</name>\n    <description>Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.</description>\n    <location>/usr/lib/node_modules/openclaw/skills/skill-creator/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>weather</name>\n    <description>Get current weather and forecasts via wttr.in or Open-Meteo. Use when: user asks about weather, temperature, or forecasts for any location. NOT for: historical weather data, severe weather alerts, or detailed meteorological analysis. No API key needed.</description>\n    <location>/usr/lib/node_modules/openclaw/skills/weather/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>document-analysis</name>\n    <description>政企公文/材料全流程智能分析 - 格式结构分析 + 内容量化打标 + 数据抽取 + 素材库</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/document_analysis/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>XLSX</name>\n    <description>Read and generate Excel files with correct types, dates, and cross-platform compatibility.</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/excel-xlsx/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>mineru</name>\n    <description>用 MinerU API 解析 PDF/Word/PPT/图片为 Markdown，支持公式、表格、OCR。适用于论文解析、文档提取。</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/mineru/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>pptx</name>\n    <description>Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates, layouts, speaker notes, or comments. Trigger whenever the user mentions &quot;deck,&quot; &quot;slides,&quot; &quot;presentation,&quot; or references a .pptx filename, regardless of what they plan to do with the content afterward. If a .pptx file needs to be opened, created, or touched, use this skill.</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/pptx-2/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>sheet-cog</name>\n    <description>CellCog is built by its own Coding Agent. That same agent builds your spreadsheets. Full Python access for complex data manipulation, formulas, pivot tables, financial models, budget templates, data trackers, projections, and Excel/XLSX generation — powered by the engineering brain that develops an entire AI platform daily.</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/sheet-cog/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>DOCX</name>\n    <description>Read and generate Word documents with correct structure, styles, and cross-platform compatibility.</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/word-docx/SKILL.md</location>\n  </skill>\n</available_skills>",
       "skills": [
         {
           "name": "feishu-doc"
@@ -42,6 +42,9 @@
         },
         {
           "name": "feishu-wiki"
+        },
+        {
+          "name": "clawhub"
         },
         {
           "name": "gog"
@@ -105,6 +108,14 @@
           "filePath": "/usr/lib/node_modules/openclaw/extensions/feishu/skills/feishu-wiki/SKILL.md",
           "baseDir": "/usr/lib/node_modules/openclaw/extensions/feishu/skills/feishu-wiki",
           "source": "openclaw-extra",
+          "disableModelInvocation": false
+        },
+        {
+          "name": "clawhub",
+          "description": "Use the ClawHub CLI to search, install, update, and publish agent skills from clawhub.com. Use when you need to fetch new skills on the fly, sync installed skills to latest or a specific version, or publish new/updated skill folders with the npm-installed clawhub CLI.",
+          "filePath": "/usr/lib/node_modules/openclaw/skills/clawhub/SKILL.md",
+          "baseDir": "/usr/lib/node_modules/openclaw/skills/clawhub",
+          "source": "openclaw-bundled",
           "disableModelInvocation": false
         },
         {
@@ -190,16 +201,16 @@
       ],
       "version": 0
     },
-    "totalTokensFresh": true,
-    "modelProvider": "minimax",
-    "model": "MiniMax-M2.1",
+    "totalTokensFresh": false,
+    "modelProvider": "nvidia",
+    "model": "z-ai/glm4.7",
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1771815641845,
-      "sessionId": "dfadbb9a-f5ab-47ae-9bb2-a2ddb070e50b",
+      "generatedAt": 1771842858715,
+      "sessionId": "41ceebff-fe21-460a-a108-03430fbfed64",
       "sessionKey": "agent:archive-agent:feishu:group:oc_3befe97960589d1ae07857e1317ec1b8",
-      "provider": "minimax",
-      "model": "MiniMax-M2.1",
+      "provider": "nvidia",
+      "model": "z-ai/glm4.7",
       "workspaceDir": "/root/.openclaw/workspace-archive-agent",
       "bootstrapMaxChars": 20000,
       "bootstrapTotalMaxChars": 150000,
@@ -208,9 +219,9 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 31074,
+        "chars": 30988,
         "projectContextChars": 13645,
-        "nonProjectContextChars": 17429
+        "nonProjectContextChars": 17343
       },
       "injectedWorkspaceFiles": [
         {
@@ -271,7 +282,7 @@
         }
       ],
       "skills": {
-        "promptChars": 5276,
+        "promptChars": 5702,
         "entries": [
           {
             "name": "feishu-doc",
@@ -288,6 +299,10 @@
           {
             "name": "feishu-wiki",
             "blockChars": 280
+          },
+          {
+            "name": "clawhub",
+            "blockChars": 423
           },
           {
             "name": "gog",
@@ -554,14 +569,13 @@
         ]
       }
     },
-    "inputTokens": 503676,
-    "outputTokens": 1542,
-    "totalTokens": 50078,
-    "contextTokens": 200000
+    "contextTokens": 200000,
+    "inputTokens": 226148,
+    "outputTokens": 431
   },
   "agent:archive-agent:main": {
-    "sessionId": "32ff1230-0192-494b-bb54-8c0ba855f6de",
-    "updatedAt": 1771815917183,
+    "sessionId": "73f42590-337c-45b5-8a21-0fdf7e5883e7",
+    "updatedAt": 1771843172185,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
@@ -582,7 +596,7 @@
       "to": "user:ou_a345d7e0254f64397b130cd43fc0efe0",
       "accountId": "default"
     },
-    "sessionFile": "/root/.openclaw/agents/archive-agent/sessions/32ff1230-0192-494b-bb54-8c0ba855f6de.jsonl",
+    "sessionFile": "/root/.openclaw/agents/archive-agent/sessions/73f42590-337c-45b5-8a21-0fdf7e5883e7.jsonl",
     "compactionCount": 0,
     "skillsSnapshot": {
       "prompt": "\n\nThe following skills provide specialized instructions for specific tasks.\nUse the read tool to load a skill's file when the task matches its description.\nWhen a skill file references a relative path, resolve it against the skill directory (parent of SKILL.md / dirname of the path) and use that absolute path in tool commands.\n\n<available_skills>\n  <skill>\n    <name>feishu-doc</name>\n    <description>Feishu document read/write operations. Activate when user mentions Feishu docs, cloud docs, or docx links.\n</description>\n    <location>/usr/lib/node_modules/openclaw/extensions/feishu/skills/feishu-doc/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>feishu-drive</name>\n    <description>Feishu cloud storage file management. Activate when user mentions cloud space, folders, drive.\n</description>\n    <location>/usr/lib/node_modules/openclaw/extensions/feishu/skills/feishu-drive/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>feishu-perm</name>\n    <description>Feishu permission management for documents and files. Activate when user mentions sharing, permissions, collaborators.\n</description>\n    <location>/usr/lib/node_modules/openclaw/extensions/feishu/skills/feishu-perm/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>feishu-wiki</name>\n    <description>Feishu knowledge base navigation. Activate when user mentions knowledge base, wiki, or wiki links.\n</description>\n    <location>/usr/lib/node_modules/openclaw/extensions/feishu/skills/feishu-wiki/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>gog</name>\n    <description>Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/gog/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>healthcheck</name>\n    <description>Host security hardening and risk-tolerance configuration for OpenClaw deployments. Use when a user asks for security audits, firewall/SSH/update hardening, risk posture, exposure review, OpenClaw cron scheduling for periodic checks, or version status checks on a machine running OpenClaw (laptop, workstation, Pi, VPS).</description>\n    <location>/usr/lib/node_modules/openclaw/skills/healthcheck/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>skill-creator</name>\n    <description>Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.</description>\n    <location>/usr/lib/node_modules/openclaw/skills/skill-creator/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>weather</name>\n    <description>Get current weather and forecasts via wttr.in or Open-Meteo. Use when: user asks about weather, temperature, or forecasts for any location. NOT for: historical weather data, severe weather alerts, or detailed meteorological analysis. No API key needed.</description>\n    <location>/usr/lib/node_modules/openclaw/skills/weather/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>document-analysis</name>\n    <description>政企公文/材料全流程智能分析 - 格式结构分析 + 内容量化打标 + 数据抽取 + 素材库</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/document_analysis/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>XLSX</name>\n    <description>Read and generate Excel files with correct types, dates, and cross-platform compatibility.</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/excel-xlsx/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>mineru</name>\n    <description>用 MinerU API 解析 PDF/Word/PPT/图片为 Markdown，支持公式、表格、OCR。适用于论文解析、文档提取。</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/mineru/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>pptx</name>\n    <description>Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates, layouts, speaker notes, or comments. Trigger whenever the user mentions &quot;deck,&quot; &quot;slides,&quot; &quot;presentation,&quot; or references a .pptx filename, regardless of what they plan to do with the content afterward. If a .pptx file needs to be opened, created, or touched, use this skill.</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/pptx-2/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>sheet-cog</name>\n    <description>CellCog is built by its own Coding Agent. That same agent builds your spreadsheets. Full Python access for complex data manipulation, formulas, pivot tables, financial models, budget templates, data trackers, projections, and Excel/XLSX generation — powered by the engineering brain that develops an entire AI platform daily.</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/sheet-cog/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>DOCX</name>\n    <description>Read and generate Word documents with correct structure, styles, and cross-platform compatibility.</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/word-docx/SKILL.md</location>\n  </skill>\n</available_skills>",
@@ -747,15 +761,15 @@
       "version": 0
     },
     "totalTokensFresh": true,
-    "modelProvider": "minimax",
-    "model": "MiniMax-M2.1",
+    "modelProvider": "nvidia",
+    "model": "z-ai/glm4.7",
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1771814790392,
-      "sessionId": "32ff1230-0192-494b-bb54-8c0ba855f6de",
+      "generatedAt": 1771841865687,
+      "sessionId": "73f42590-337c-45b5-8a21-0fdf7e5883e7",
       "sessionKey": "agent:archive-agent:main",
-      "provider": "minimax",
-      "model": "MiniMax-M2.1",
+      "provider": "nvidia",
+      "model": "z-ai/glm4.7",
       "workspaceDir": "/root/.openclaw/workspace-archive-agent",
       "bootstrapMaxChars": 20000,
       "bootstrapTotalMaxChars": 150000,
@@ -764,9 +778,9 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 30813,
+        "chars": 30328,
         "projectContextChars": 13645,
-        "nonProjectContextChars": 17168
+        "nonProjectContextChars": 16683
       },
       "injectedWorkspaceFiles": [
         {
@@ -1110,14 +1124,14 @@
         ]
       }
     },
-    "inputTokens": 177902,
-    "outputTokens": 806,
-    "totalTokens": 105850,
+    "inputTokens": 508089,
+    "outputTokens": 1473,
+    "totalTokens": 79276,
     "contextTokens": 200000
   },
   "agent:archive-agent:feishu:group:oc_3c7e56ad9370240fe7aae25dfd845f28": {
-    "sessionId": "a0eec851-5a54-46b0-93a5-d1b54e60e392",
-    "updatedAt": 1771815717748,
+    "sessionId": "ebf5a5ba-265c-4142-ad4d-6a96a01f4eeb",
+    "updatedAt": 1771833303209,
     "systemSent": true,
     "abortedLastRun": false,
     "displayName": "feishu:g-oc_3c7e56ad9370240fe7aae25dfd845f28",
@@ -1142,7 +1156,7 @@
       "to": "chat:oc_3c7e56ad9370240fe7aae25dfd845f28",
       "accountId": "default"
     },
-    "sessionFile": "/root/.openclaw/agents/archive-agent/sessions/a0eec851-5a54-46b0-93a5-d1b54e60e392.jsonl",
+    "sessionFile": "/root/.openclaw/agents/archive-agent/sessions/ebf5a5ba-265c-4142-ad4d-6a96a01f4eeb.jsonl",
     "compactionCount": 0,
     "skillsSnapshot": {
       "prompt": "\n\nThe following skills provide specialized instructions for specific tasks.\nUse the read tool to load a skill's file when the task matches its description.\nWhen a skill file references a relative path, resolve it against the skill directory (parent of SKILL.md / dirname of the path) and use that absolute path in tool commands.\n\n<available_skills>\n  <skill>\n    <name>feishu-doc</name>\n    <description>Feishu document read/write operations. Activate when user mentions Feishu docs, cloud docs, or docx links.\n</description>\n    <location>/usr/lib/node_modules/openclaw/extensions/feishu/skills/feishu-doc/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>feishu-drive</name>\n    <description>Feishu cloud storage file management. Activate when user mentions cloud space, folders, drive.\n</description>\n    <location>/usr/lib/node_modules/openclaw/extensions/feishu/skills/feishu-drive/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>feishu-perm</name>\n    <description>Feishu permission management for documents and files. Activate when user mentions sharing, permissions, collaborators.\n</description>\n    <location>/usr/lib/node_modules/openclaw/extensions/feishu/skills/feishu-perm/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>feishu-wiki</name>\n    <description>Feishu knowledge base navigation. Activate when user mentions knowledge base, wiki, or wiki links.\n</description>\n    <location>/usr/lib/node_modules/openclaw/extensions/feishu/skills/feishu-wiki/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>gog</name>\n    <description>Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/gog/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>healthcheck</name>\n    <description>Host security hardening and risk-tolerance configuration for OpenClaw deployments. Use when a user asks for security audits, firewall/SSH/update hardening, risk posture, exposure review, OpenClaw cron scheduling for periodic checks, or version status checks on a machine running OpenClaw (laptop, workstation, Pi, VPS).</description>\n    <location>/usr/lib/node_modules/openclaw/skills/healthcheck/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>skill-creator</name>\n    <description>Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.</description>\n    <location>/usr/lib/node_modules/openclaw/skills/skill-creator/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>weather</name>\n    <description>Get current weather and forecasts via wttr.in or Open-Meteo. Use when: user asks about weather, temperature, or forecasts for any location. NOT for: historical weather data, severe weather alerts, or detailed meteorological analysis. No API key needed.</description>\n    <location>/usr/lib/node_modules/openclaw/skills/weather/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>document-analysis</name>\n    <description>政企公文/材料全流程智能分析 - 格式结构分析 + 内容量化打标 + 数据抽取 + 素材库</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/document_analysis/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>XLSX</name>\n    <description>Read and generate Excel files with correct types, dates, and cross-platform compatibility.</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/excel-xlsx/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>mineru</name>\n    <description>用 MinerU API 解析 PDF/Word/PPT/图片为 Markdown，支持公式、表格、OCR。适用于论文解析、文档提取。</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/mineru/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>pptx</name>\n    <description>Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates, layouts, speaker notes, or comments. Trigger whenever the user mentions &quot;deck,&quot; &quot;slides,&quot; &quot;presentation,&quot; or references a .pptx filename, regardless of what they plan to do with the content afterward. If a .pptx file needs to be opened, created, or touched, use this skill.</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/pptx-2/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>sheet-cog</name>\n    <description>CellCog is built by its own Coding Agent. That same agent builds your spreadsheets. Full Python access for complex data manipulation, formulas, pivot tables, financial models, budget templates, data trackers, projections, and Excel/XLSX generation — powered by the engineering brain that develops an entire AI platform daily.</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/sheet-cog/SKILL.md</location>\n  </skill>\n  <skill>\n    <name>DOCX</name>\n    <description>Read and generate Word documents with correct structure, styles, and cross-platform compatibility.</description>\n    <location>~/.openclaw/workspace-archive-agent/skills/word-docx/SKILL.md</location>\n  </skill>\n</available_skills>",
@@ -1306,17 +1320,13 @@
       ],
       "version": 0
     },
-    "inputTokens": 787786,
-    "outputTokens": 1118,
-    "totalTokens": 97579,
     "totalTokensFresh": true,
     "modelProvider": "minimax",
     "model": "MiniMax-M2.1",
-    "contextTokens": 200000,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1771815676698,
-      "sessionId": "a0eec851-5a54-46b0-93a5-d1b54e60e392",
+      "generatedAt": 1771833285368,
+      "sessionId": "ebf5a5ba-265c-4142-ad4d-6a96a01f4eeb",
       "sessionKey": "agent:archive-agent:feishu:group:oc_3c7e56ad9370240fe7aae25dfd845f28",
       "provider": "minimax",
       "model": "MiniMax-M2.1",
@@ -1673,6 +1683,10 @@
           }
         ]
       }
-    }
+    },
+    "inputTokens": 5923,
+    "outputTokens": 143,
+    "totalTokens": 22596,
+    "contextTokens": 200000
   }
 }

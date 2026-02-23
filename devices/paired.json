@@ -4,7 +4,7 @@
     "publicKey": "vLRaBVHW_PYeDXNhfdRSbYmQs7N24EvafwGT_QTHebg",
     "platform": "linux",
     "clientId": "gateway-client",
-    "clientMode": "backend",
+    "clientMode": "ui",
     "role": "operator",
     "roles": [
       "operator"
@@ -14,7 +14,6 @@
       "operator.approvals",
       "operator.pairing"
     ],
-    "remoteIp": "172.17.0.2",
     "tokens": {
       "operator": {
         "token": "Ob-7f3pCyn2hFnb09DU1lZKQ0UHUjCxSMJEVDh8f8-w",
@@ -24,11 +23,13 @@
           "operator.approvals",
           "operator.pairing"
         ],
-        "createdAtMs": 1771601197090
+        "createdAtMs": 1771601197090,
+        "lastUsedAtMs": 1771836258304
       }
     },
     "createdAtMs": 1771601189291,
     "approvedAtMs": 1771601189291,
-    "displayName": "agent"
+    "remoteIp": "172.17.0.2",
+    "displayName": "openclaw-tui"
   }
 }

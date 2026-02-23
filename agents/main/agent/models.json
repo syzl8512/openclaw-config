@@ -5,6 +5,22 @@
       "api": "anthropic-messages",
       "models": [
         {
+          "id": "MiniMax-M2.5",
+          "name": "MiniMax M2.5",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 32000
+        },
+        {
           "id": "MiniMax-M2.1",
           "name": "MiniMax M2.1",
           "reasoning": false,
@@ -54,22 +70,6 @@
           "maxTokens": 8192
         },
         {
-          "id": "MiniMax-M2.5",
-          "name": "MiniMax M2.5",
-          "reasoning": true,
-          "input": [
-            "text"
-          ],
-          "cost": {
-            "input": 15,
-            "output": 60,
-            "cacheRead": 2,
-            "cacheWrite": 10
-          },
-          "contextWindow": 200000,
-          "maxTokens": 8192
-        },
-        {
           "id": "MiniMax-M2.5-Lightning",
           "name": "MiniMax M2.5 Lightning",
           "reasoning": true,
@@ -87,6 +87,117 @@
         }
       ],
       "apiKey": "sk-cp-jsK1vNvQHlSrGDqqLgBCQylnKm4CXD_LMAwaQuDsDWm7ng5c6a7bs7C3P_b7bk7kk1cDpde9-CjZNlUF-pKhtm4jm3bEsOk9U9ROw86ofAqYI_WAWKJdfWk"
+    },
+    "nvidia": {
+      "baseUrl": "https://integrate.api.nvidia.com/v1",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "z-ai/glm4.7",
+          "name": "GLM 4.7 (NVIDIA)",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 32000
+        },
+        {
+          "id": "nvidia/llama-3.1-nemotron-70b-instruct",
+          "name": "NVIDIA Llama 3.1 Nemotron 70B Instruct",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 131072,
+          "maxTokens": 4096
+        },
+        {
+          "id": "meta/llama-3.3-70b-instruct",
+          "name": "Meta Llama 3.3 70B Instruct",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 131072,
+          "maxTokens": 4096
+        },
+        {
+          "id": "nvidia/mistral-nemo-minitron-8b-8k-instruct",
+          "name": "NVIDIA Mistral NeMo Minitron 8B Instruct",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 8192,
+          "maxTokens": 2048
+        }
+      ],
+      "apiKey": "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;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;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"
+    },
+    "deepseek": {
+      "baseUrl": "https://api.deepseek.com/v1",
+      "apiKey": "sk-c5a6aa8da09e4a11b270ce5d246abf0e",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "deepseek-chat",
+          "name": "DeepSeek Chat (OCR)",
+          "reasoning": false,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 128000,
+          "maxTokens": 32000
+        },
+        {
+          "id": "deepseek-reasoner",
+          "name": "DeepSeek Reasoner",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 64000,
+          "maxTokens": 32000
+        }
+      ]
     }
   }
 }
