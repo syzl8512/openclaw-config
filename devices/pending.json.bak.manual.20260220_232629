@@ -1,0 +1,23 @@
+{
+  "1db8aa10-61dc-4da9-8211-e24dd2ac47e4": {
+    "requestId": "1db8aa10-61dc-4da9-8211-e24dd2ac47e4",
+    "deviceId": "d54c903da22ecf99d3cf53a251ab1347ab9df997886066ff5f13516df3812d4b",
+    "publicKey": "vLRaBVHW_PYeDXNhfdRSbYmQs7N24EvafwGT_QTHebg",
+    "platform": "linux",
+    "clientId": "cli",
+    "clientMode": "cli",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "remoteIp": "172.17.0.2",
+    "silent": false,
+    "isRepair": false,
+    "ts": 1771601054811
+  }
+}

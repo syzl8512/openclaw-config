@@ -9,7 +9,8 @@
     "MINERU_TOKEN": "eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJqdGkiOiIyOTEwMDM5MiIsInJvbCI6IlJPTEVfUkVHSVNURVIiLCJpc3MiOiJPcGVuWExhYiIsImlhdCI6MTc3MTMxNjMyMCwiY2xpZW50SWQiOiJsa3pkeDU3bnZ5MjJqa3BxOXgydyIsInBob25lIjoiIiwib3BlbklkIjpudWxsLCJ1dWlkIjoiMTBmOTBhZDMtMGI1OS00NGI0LWE1MzItNjUzZmM0ZWQ4NTdhIiwiZW1haWwiOiIiLCJleHAiOjE3NzkwOTIzMjB9.8FiUhHnBe46G0XUsV36Z8ALMf7cNyImFNm3w5X3pa-K2Uk2t8L6w5Mr9ManjwPuNxUKaYUrpC4ItrZQ5Ma-_zg"
   },
   "browser": {
-    "enabled": true
+    "enabled": true,
+    "executablePath": "/usr/local/bin/chromium"
   },
   "models": {
     "mode": "merge",
@@ -51,6 +52,16 @@
         "id": "archive-agent",
         "name": "样本分析Agent",
         "workspace": "/root/.openclaw/workspace-archive-agent"
+      },
+      {
+        "id": "agent-----agent",
+        "name": "市场洞察Agent",
+        "workspace": "/root/.openclaw/workspace-----agent"
+      },
+      {
+        "id": "agent-market-insight",
+        "name": "市场洞察Agent",
+        "workspace": "/root/.openclaw/workspace-market-insight"
       }
     ]
   },
@@ -62,6 +73,26 @@
         "peer": {
           "kind": "group",
           "id": "oc_3befe97960589d1ae07857e1317ec1b8"
+        }
+      }
+    },
+    {
+      "agentId": "agent-----agent",
+      "match": {
+        "channel": "feishu",
+        "peer": {
+          "kind": "group",
+          "id": "oc_3c7e56ad9370240fe7aae25dfd845f28"
+        }
+      }
+    },
+    {
+      "agentId": "agent-market-insight",
+      "match": {
+        "channel": "feishu",
+        "peer": {
+          "kind": "group",
+          "id": "oc_3c7e56ad9370240fe7aae25dfd845f28"
         }
       }
     }

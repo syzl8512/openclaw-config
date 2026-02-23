@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "socket": {},
+  "defaults": {},
+  "agents": {
+    "main": {
+      "allowlist": [
+        {
+          "pattern": "/usr/bin/ls",
+          "lastUsedAt": 1771600922773
+        }
+      ]
+    }
+  }
+}

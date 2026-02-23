@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "socket": {},
+  "defaults": {
+    "security": "allowlist",
+    "ask": "on-miss",
+    "askFallback": "deny",
+    "autoAllowSkills": false
+  },
+  "agents": {
+    "main": {
+      "allowlist": [
+        {
+          "pattern": "/usr/bin/ls"
+        },
+        {
+          "pattern": "/usr/bin/cat"
+        },
+        {
+          "pattern": "/usr/bin/tail"
+        },
+        {
+          "pattern": "/usr/bin/head"
+        },
+        {
+          "pattern": "/usr/bin/grep"
+        },
+        {
+          "pattern": "/usr/bin/awk"
+        },
+        {
+          "pattern": "/usr/bin/sed"
+        },
+        {
+          "pattern": "/usr/bin/date"
+        },
+        {
+          "pattern": "/usr/bin/echo"
+        },
+        {
+          "pattern": "/usr/bin/df"
+        },
+        {
+          "pattern": "/usr/bin/du"
+        },
+        {
+          "pattern": "/usr/bin/wc"
+        }
+      ]
+    }
+  }
+}
