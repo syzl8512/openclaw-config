@@ -1,0 +1,26 @@
+# OpenClaw
+workspace-*/
+media/
+memory/
+credentials/
+@eaDir/
+.DS_Store
+*.log
+
+# Git
+.git/
+
+# Session logs (may contain sensitive info)
+agents/*/sessions/*.jsonl
+
+# Browser data
+browser/
+
+# Backups
+*.bak
+*.tar.gz
+*.tgz
+
+# Virtual environments
+venv/
+.env
